@@ -7,7 +7,7 @@ Use this reference when users ask for concrete runnable commands by client/runti
 Upload zip:
 
 ```bash
-python3 skills/game-publish-api/scripts/publish_game.py upload-zip \
+python3 scripts/publish_game.py upload-zip \
   --base-url http://nlb-8rcqh9faj37iiwegkc.ap-southeast-1.nlb.aliyuncsslbintl.com:3000 \
   --zip ./my_game.zip \
   --title "My Game" \
@@ -17,7 +17,7 @@ python3 skills/game-publish-api/scripts/publish_game.py upload-zip \
 Publish from directory:
 
 ```bash
-python3 skills/game-publish-api/scripts/publish_game.py publish-files \
+python3 scripts/publish_game.py publish-files \
   --base-url http://nlb-8rcqh9faj37iiwegkc.ap-southeast-1.nlb.aliyuncsslbintl.com:3000 \
   --dir ./my_game_project \
   --title "My Game"
@@ -28,7 +28,7 @@ python3 skills/game-publish-api/scripts/publish_game.py publish-files \
 Upload zip:
 
 ```bash
-node skills/game-publish-api/scripts/publish_game_node.mjs upload-zip \
+node scripts/publish_game_node.mjs upload-zip \
   --base-url http://nlb-8rcqh9faj37iiwegkc.ap-southeast-1.nlb.aliyuncsslbintl.com:3000 \
   --zip ./my_game.zip \
   --title "My Game"
@@ -37,7 +37,7 @@ node skills/game-publish-api/scripts/publish_game_node.mjs upload-zip \
 Publish from directory:
 
 ```bash
-node skills/game-publish-api/scripts/publish_game_node.mjs publish-files \
+node scripts/publish_game_node.mjs publish-files \
   --base-url http://nlb-8rcqh9faj37iiwegkc.ap-southeast-1.nlb.aliyuncsslbintl.com:3000 \
   --dir ./my_game_project \
   --title "My Game" \

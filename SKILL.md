@@ -64,7 +64,7 @@ Optional:
 macOS/Linux:
 
 ```bash
-python3 skills/game-publish-api/scripts/publish_game.py upload-zip \
+python3 scripts/publish_game.py upload-zip \
   --base-url http://nlb-8rcqh9faj37iiwegkc.ap-southeast-1.nlb.aliyuncsslbintl.com:3000 \
   --zip ./my_game.zip \
   --title "My Game" \
@@ -74,7 +74,7 @@ python3 skills/game-publish-api/scripts/publish_game.py upload-zip \
 Windows PowerShell:
 
 ```powershell
-py -3 skills\\game-publish-api\\scripts\\publish_game.py upload-zip `
+py -3 scripts\\publish_game.py upload-zip `
   --base-url http://nlb-8rcqh9faj37iiwegkc.ap-southeast-1.nlb.aliyuncsslbintl.com:3000 `
   --zip .\\my_game.zip `
   --title "My Game" `
@@ -84,7 +84,7 @@ py -3 skills\\game-publish-api\\scripts\\publish_game.py upload-zip `
 Publish directory with `/api/publish`:
 
 ```bash
-python3 skills/game-publish-api/scripts/publish_game.py publish-files \
+python3 scripts/publish_game.py publish-files \
   --base-url http://nlb-8rcqh9faj37iiwegkc.ap-southeast-1.nlb.aliyuncsslbintl.com:3000 \
   --dir ./my_game_project \
   --title "My Game" \
@@ -103,7 +103,7 @@ curl -sS -X POST "http://nlb-8rcqh9faj37iiwegkc.ap-southeast-1.nlb.aliyuncsslbin
 Node.js CLI upload zip:
 
 ```bash
-node skills/game-publish-api/scripts/publish_game_node.mjs upload-zip \
+node scripts/publish_game_node.mjs upload-zip \
   --base-url http://nlb-8rcqh9faj37iiwegkc.ap-southeast-1.nlb.aliyuncsslbintl.com:3000 \
   --zip ./my_game.zip \
   --title "My Game"
